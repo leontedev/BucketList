@@ -13,6 +13,10 @@
 		896BFE4B239543B6003DD4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896BFE4A239543B6003DD4C1 /* Assets.xcassets */; };
 		896BFE4E239543B6003DD4C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896BFE4D239543B6003DD4C1 /* Preview Assets.xcassets */; };
 		896BFE51239543B6003DD4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896BFE4F239543B6003DD4C1 /* LaunchScreen.storyboard */; };
+		896BFE59239657DC003DD4C1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BFE58239657DC003DD4C1 /* MapView.swift */; };
+		896BFE5D23966408003DD4C1 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BFE5C23966408003DD4C1 /* MKPointAnnotation-ObservableObject.swift */; };
+		896BFE5F2396646F003DD4C1 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BFE5E2396646F003DD4C1 /* EditView.swift */; };
+		896BFE6123966598003DD4C1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BFE6023966598003DD4C1 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		896BFE4D239543B6003DD4C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		896BFE50239543B6003DD4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		896BFE52239543B6003DD4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896BFE58239657DC003DD4C1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		896BFE5C23966408003DD4C1 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		896BFE5E2396646F003DD4C1 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		896BFE6023966598003DD4C1 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				896BFE44239543AE003DD4C1 /* AppDelegate.swift */,
 				896BFE46239543AE003DD4C1 /* SceneDelegate.swift */,
 				896BFE48239543AE003DD4C1 /* ContentView.swift */,
+				896BFE58239657DC003DD4C1 /* MapView.swift */,
+				896BFE5C23966408003DD4C1 /* MKPointAnnotation-ObservableObject.swift */,
+				896BFE5E2396646F003DD4C1 /* EditView.swift */,
+				896BFE6023966598003DD4C1 /* Result.swift */,
 				896BFE4A239543B6003DD4C1 /* Assets.xcassets */,
 				896BFE4F239543B6003DD4C1 /* LaunchScreen.storyboard */,
 				896BFE52239543B6003DD4C1 /* Info.plist */,
@@ -147,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				896BFE45239543AE003DD4C1 /* AppDelegate.swift in Sources */,
+				896BFE59239657DC003DD4C1 /* MapView.swift in Sources */,
+				896BFE5F2396646F003DD4C1 /* EditView.swift in Sources */,
 				896BFE47239543AE003DD4C1 /* SceneDelegate.swift in Sources */,
+				896BFE6123966598003DD4C1 /* Result.swift in Sources */,
+				896BFE5D23966408003DD4C1 /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				896BFE49239543AE003DD4C1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
