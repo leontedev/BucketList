@@ -18,6 +18,7 @@
 		896BFE5F2396646F003DD4C1 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BFE5E2396646F003DD4C1 /* EditView.swift */; };
 		896BFE6123966598003DD4C1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BFE6023966598003DD4C1 /* Result.swift */; };
 		896BFE632397AA31003DD4C1 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BFE622397AA31003DD4C1 /* MKPointAnnotation-Codable.swift */; };
+		896BFE67239944EC003DD4C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896BFE66239944EC003DD4C1 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		896BFE5E2396646F003DD4C1 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		896BFE6023966598003DD4C1 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		896BFE622397AA31003DD4C1 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		896BFE66239944EC003DD4C1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				896BFE44239543AE003DD4C1 /* AppDelegate.swift */,
 				896BFE46239543AE003DD4C1 /* SceneDelegate.swift */,
 				896BFE48239543AE003DD4C1 /* ContentView.swift */,
+				896BFE66239944EC003DD4C1 /* MainView.swift */,
 				896BFE58239657DC003DD4C1 /* MapView.swift */,
 				896BFE5C23966408003DD4C1 /* MKPointAnnotation-ObservableObject.swift */,
 				896BFE622397AA31003DD4C1 /* MKPointAnnotation-Codable.swift */,
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				896BFE45239543AE003DD4C1 /* AppDelegate.swift in Sources */,
+				896BFE67239944EC003DD4C1 /* MainView.swift in Sources */,
 				896BFE59239657DC003DD4C1 /* MapView.swift in Sources */,
 				896BFE5F2396646F003DD4C1 /* EditView.swift in Sources */,
 				896BFE47239543AE003DD4C1 /* SceneDelegate.swift in Sources */,
